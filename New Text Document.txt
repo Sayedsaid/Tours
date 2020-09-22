@@ -1,0 +1,1 @@
+-	Keep the two cmd open "npm run compile:sass" and "live-server"
