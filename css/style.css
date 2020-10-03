@@ -1,5 +1,38 @@
+/*
+0 - 600PX :      PHONES
+600 - 900PX :    TABLET PORTRAIT
+900 - 1200PX :   TABLET LANDSCAP
+[1200 - 1800PX]: IS WHERE OUR NORMAL STAYLES APPLY
+1800PX + :       BIG DESKTOP
+*/
+/*
+$Breakpoints arguements choices 
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+/*
+
+Order: Base .. Typography > general layout .. grid .. page layout > componentes
+
+1em = 16px
+
+*/
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 30%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 *,
 *::after,
